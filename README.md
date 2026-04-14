@@ -1,44 +1,57 @@
 # ✅ React TodoList
 
-Una aplicación de lista de tareas (To-Do List) construida con **React.js**, que permite gestionar tus tareas de forma sencilla e intuitiva.
+A task management application built with **React.js**, allowing users to manage their to-dos in a simple and intuitive way.
 
 ---
 
-## 🚀 Url
+## 🚀 Live Demo
 
-> puedes ver el proyecto aqui
+> You can check out the project here:
+
 https://earamosb8.github.io/React-TodoList/
 
-## 🛠️ Tecnologías utilizadas
+---
 
-- [React.js](https://reactjs.org/) — Librería principal para la UI
+## 🛠️ Built With
+
+- [React.js](https://reactjs.org/) — Main UI library
 - JavaScript (ES6+)
 - CSS3
 - HTML5
-- [Create React App](https://create-react-app.dev/) — Bootstrapping del proyecto
+- [Create React App](https://create-react-app.dev/) — Project bootstrapping
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- ➕ Agregar nuevas tareas
-- ✔️ Marcar tareas como completadas
-- 🗑️ Eliminar tareas
-- 📋 Visualizar la lista de tareas pendientes y completadas
+- ➕ Add new tasks
+- ✔️ Mark tasks as completed
+- 🗑️ Delete tasks
+- 📋 View pending and completed tasks
 
 ---
 
-## 📁 Estructura del proyecto
+## 📁 Project Structure
 
 ```
 React-TodoList/
 ├── public/
-│   └── index.html
 ├── src/
-│   ├── components/
-│   ├── App.js
+│   ├── CreateTodoButton/
+│   ├── Modal/
+│   ├── TodoCounter/
+│   ├── TodoForm/
+│   ├── TodoItem/
+│   ├── TodoList/
+│   ├── TodoSearch/
 │   ├── App.css
-│   └── index.js
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
 ├── .gitignore
 ├── package.json
 └── README.md
@@ -46,58 +59,66 @@ React-TodoList/
 
 ---
 
-## ⚙️ Instalación y uso
+## ⚙️ Getting Started
 
-Sigue estos pasos para correr el proyecto localmente:
+Follow these steps to run the project locally:
 
-### 1. Clona el repositorio
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/earamosb8/React-TodoList.git
 cd React-TodoList
 ```
 
-### 2. Instala las dependencias
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Inicia el servidor de desarrollo
+### 3. Start the development server
 
 ```bash
 npm start
 ```
 
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
 ---
 
-## 📦 Scripts disponibles
+## 📦 Available Scripts
 
-| Comando | Descripción |
+| Command | Description |
 |---|---|
-| `npm start` | Inicia la app en modo desarrollo |
-| `npm test` | Ejecuta las pruebas en modo interactivo |
-| `npm run build` | Genera el build optimizado para producción |
-| `npm run eject` | Expone la configuración interna (⚠️ irreversible) |
+| `npm start` | Starts the app in development mode |
+| `npm test` | Runs tests in interactive watch mode |
+| `npm run build` | Builds the app for production |
+| `npm run eject` | Exposes internal config (⚠️ irreversible) |
 
 ---
 
-## 🤝 Contribuciones
+## 🤝 Contributing
 
-¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto:
+Contributions are welcome! If you'd like to improve this project:
 
-1. Haz un fork del repositorio
-2. Crea una rama con tu feature: `git checkout -b feature/nueva-funcionalidad`
-3. Realiza tus cambios y haz commit: `git commit -m 'Agrega nueva funcionalidad'`
-4. Sube los cambios: `git push origin feature/nueva-funcionalidad`
-5. Abre un Pull Request
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a Pull Request
 
 ---
 
-## 👤 Autor
+## 👤 Author
 
 **Eduardo Ramos**
 - GitHub: [@earamosb8](https://github.com/earamosb8)
+- LinkedIn: [earamosb8](https://www.linkedin.com/in/earamosb8/)
+- Email: earamosb8@gmail.com
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
